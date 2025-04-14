@@ -10,3 +10,41 @@ body {
     min-height: 100vh;
     background-color: #f9f9f9;
 }
+
+
+.dpad {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(3, 60px);
+    grid-template-rows: repeat(3, 60px);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+#ButtonUp {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#ButtonLeft {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+#ButtonRight {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+#ButtonDown {
+    grid-column: 2;
+    grid-row: 3;
+}
+
+.dpad button {
+    width: 60px;
+    height: 60px;
+    font-size: 16px;
+}
