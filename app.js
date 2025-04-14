@@ -10,6 +10,9 @@ const gameResetButton = document.getElementById("GameReset");
 
 gameStartButton.addEventListener("click", function () {
 
+    resetPlayerInput(); // resetPlayerInput() function called from below
+    displayPlayerInput();
+
     gameStartFunction(); // gameStart function called from below
 })
 
