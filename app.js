@@ -1,7 +1,5 @@
 let playerSequence = [];
 
-
-
 //Declaring and setting up start and reset buttons
 
 const gameStartButton = document.getElementById("GameStart");
@@ -15,6 +13,7 @@ gameStartButton.addEventListener("click", function () {
 gameResetButton.addEventListener("click", function () {
 
     resetPlayerInput(); // resetPlayerInput() function called from below
+    displayPlayerInput();
 })
 
 
